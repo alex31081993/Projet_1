@@ -1,0 +1,896 @@
+body
+{   
+     width: 100%;
+     max-width: 1600px;
+	 margin: 0 auto;
+	 overflow-x: hidden;
+	 font-family: arial, sans-serif;
+}
+
+h1
+{
+     font-size: 3em;
+     margin-bottom: 10px;
+}
+
+h2
+{
+     font-size: 3em;
+     margin-bottom: 10px;
+}
+ul li
+{
+	 list-style-type: none;
+}
+/************************ en-tête de la page***************************/
+
+/************************* navigation du site*************************/
+
+#conteneur
+{
+	 max-width: 1600Px;
+	 width: 100%;
+	 display: flex;
+     justify-content: space-around;
+	 flex-wrap: wrap;
+	 position: fixed;
+	 top: 0px;
+	 z-index: 5;
+	 background-color: white;
+}
+
+#logo
+{
+	 margin-top: 30px;
+}
+
+#conteneur nav ul
+{
+	 list-style-type: none;
+	 display: flex;
+}
+
+#conteneur nav li 
+{
+     margin-right: 15px;
+     padding-top:40px;
+}
+
+#conteneur nav ul li a
+{
+     color: grey;
+}
+ .acceuil
+{
+	 border-top: 2px #6daccf solid;
+     padding-top:50px;
+     margin-top: -20px;
+}
+#conteneur nav li a:hover
+{
+     border-top: 2px #6daccf solid;
+     padding-top:50px;
+     margin-top: -20px;
+}
+/************************** fin de la nvagation du site**********************/
+
+/************************** banniere du site *******************************/
+.webagency
+{
+	 color:#6daccf;
+}
+
+#banniere_img
+{
+    position: relative;
+    background-size: 100%;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#banniere_img img
+{
+	 position: relative;
+     width: 100%;
+     background-size: 100%;
+}
+
+.element_1 
+{
+	 color: black;
+	 text-decoration: none;
+	 font-size: 1.3em;
+}
+
+#banniere_description
+{
+	 display: flex;
+	 flex-direction: column;
+	 flex-wrap: wrap;
+     position: absolute;
+     left: 10%;
+     top: 20%;
+     color: white;
+     width: 100%;
+
+}
+
+
+.bouton {
+
+	 text-decoration: none;
+	 color: white;
+	 background-color: #6daccf;
+	 border:1px solid #6daccf;
+	 width: 92px;
+	 padding: 10px 0px 10px 10px; 
+
+}
+/********************************** fleche gauche de la banniere************************/
+#f_left
+{    
+
+     position:absolute;
+     top: 50%;
+     left: 0%;
+     color: white;
+}
+
+#f_leftc
+{
+	 position: absolute;
+	 top: 49.5%;
+     width: 20px;
+     height: 40px;
+     background-color: black;
+     border-top-right-radius: 110px;
+     border-bottom-right-radius: 110px;
+     border: 1px solid black;
+     border-left: 0;
+     opacity: 0.3;
+ }
+/***************************** fin de la fleche gauche de la banniere************************/
+
+/****************************** fleche droite de la banniere ********************************/
+#f_right
+{
+     position: absolute;
+     top: 50%;
+     right: 0;
+     color: white;  
+}
+
+#f_rightc
+{
+     position: absolute;
+     top: 49.5%;
+     right: 0;
+     color: white;
+     width: 20px;
+     height: 40px;
+     background-color: black;
+     border-top-left-radius: 110px;
+     border-bottom-left-radius: 110px;
+     border: 1px solid black;
+     border-right: 0; 
+     opacity: 0.3;  
+}
+/************************** fin de la fleche drotie de la banniere **************************/
+/**************************fin de la banniere du site *************************************/
+/************************** fin de l'en tête de la page *************************************/
+
+/**************************** section services de la page **********************************/
+#services
+{    
+	 padding-top: 100px;
+	 margin-top: 100px;
+	 text-align: center;
+	 width: 100%;
+}
+
+.circle_01 
+{
+	 color: #6daccf;
+     position: relative;
+     border-radius:12px solid black;
+}
+
+.circle_01::before
+{
+	 content:'';
+     position:absolute;
+     left:calc(-50% - 90px);
+     top:calc(50% - 0px);
+     border-bottom:1px ridge #888;
+     width:90px;
+}
+
+.circle_01::after
+{
+	 content:'';
+     position:absolute;
+     left:calc(-50% - -27px);
+     top:calc(50% - 0px);
+     border-bottom:1px ridge #888;
+     width:90px;
+}
+
+#mac
+{     
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+	 flex-wrap: wrap;
+}
+
+#mac img
+{
+	 width: 510px;
+	 height: 319px;
+}
+
+#services_description
+{
+	 text-align: center;
+}
+
+#fa-ul
+{    
+
+	 position: relative;
+	 margin-top: 60px;
+}
+
+#fa-ul li i 
+{
+     border:1px solid #888;
+     padding: 30px;
+     border-radius: 50%;
+     color: #6daccf;
+}
+
+.ux
+{    
+	 position: relative;
+     left: 25%;
+     top: -80px;
+}
+
+
+#rond_1
+{
+	 position: relative;
+	 left: 72px;
+	 bottom: 44px;
+     width: 8px;
+     height: 8px;
+     border-radius: 50%;
+     background-color: #6daccf;
+     border: 3px solid white;
+}
+
+
+#rond_2
+{
+	 position: relative;
+     left: 74px;
+	 bottom: 44px;
+     width: 8px;
+     height: 8px;
+     border-radius: 50%;
+     background-color: #6daccf;
+     border: 3px solid white;
+}
+
+#rond_3
+{
+	 position: relative;
+	 left: 70px;
+	 bottom: 44px;
+     width: 8px;
+     height: 8px;
+     border-radius: 50%;
+     background-color: #6daccf;
+     border: 3px solid white;
+}
+
+
+
+/***********************************fin de la section de la page ******************************/
+
+/*********************************** section projet de la page *******************************/
+
+#projets
+{
+	 text-align: center;
+	 padding-top: 100px;
+}
+
+
+#background-color
+{
+	 background-color: #F1F1F1;
+}
+
+#projets_description
+{
+	 text-align: center;
+}
+
+
+#ul_liste
+
+{   
+	 display: flex;
+	 justify-content: center;
+	 flex-wrap: wrap;
+}
+
+#nav_projet
+{   
+	 position: relative;
+	 display: flex;
+	 justify-content: center;
+}
+
+#all_works 
+{   
+	list-style-type: none;
+	z-index: 9;
+	color: white;
+	background-color: #6daccf;
+	border: 10px solid #6daccf;
+}
+#nav_projet li a
+{
+	text-decoration: none;
+}
+
+#nav_projet li a .liste_hover
+{   
+     color: black;
+	 text-decoration: none;
+	 border: 10px solid #e2e2e2;
+	 background-color: #e2e2e2;
+}
+
+#nav_projet li .liste_hover:hover
+{   
+	 color: white;
+	 background-color: #6daccf;
+	 border: 10px solid #6daccf;
+}
+
+.petite_bordure1
+{
+	 position: relative;
+	 top: 20%;
+	 width: 100%;
+	 height: 3px;
+	 background-color: #468cad;
+     opacity: 1;
+}
+
+.petite_bordure
+{
+	 position: relative;
+	 width: 50px;
+	 height: 10px;
+	 background-color: #468cad;
+     opacity: 0;
+
+}
+
+#nav_projet li:hover .petite_bordure
+{
+	 position: relative;
+	 top: 20%;
+	 width: 100%;
+	 height: 3px;
+	 background-color: #468cad;
+     opacity: 1;
+
+}
+
+.triangle1
+{
+     width: 0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-top: 10px solid #468cad;
+     position: relative;
+     top: 20%;
+     z-index: 2;
+     margin: auto;
+
+}
+
+.triangle
+{
+     width: 0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-top: 10px solid #468cad;
+     position: relative;
+     top: 20%;
+     z-index: 2;
+     margin: auto;
+     opacity: 0;
+
+}
+#nav_projet li:hover .triangle
+{
+	 opacity: 1;
+}
+
+
+#ul_liste li
+{  
+     margin:10px 0px 10px 0px;
+ }
+/********************************* contenue des images ****************************/
+#contenu_projet 
+{
+	 width: 100%;
+	 max-width: 1280px;
+	 margin: auto;
+	 align-content: center;
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+	 padding-bottom: 100px;
+}
+
+#image_1
+{   
+	 position: relative;
+	 background: url('webagency_images/images/portfolio/01.jpg');
+	 background-size: 100%;
+	 width: 300px;
+	 height: 200px;
+	 margin:10px;
+}
+
+#image_1:hover .icon_oeil
+{
+	 opacity: 1;
+}
+
+#image_1:hover .fond_oeil
+{
+	 opacity: 0.5;
+}
+
+#image_1:hover .texte_oeil
+{
+	 opacity: 1;
+}
+
+#image_2
+{   
+	 position: relative;
+	 background: url('webagency_images/images/portfolio/02.jpg');
+	 background-size: 100%;
+	 width: 300px;
+	 height: 200px;
+	 margin:10px;
+}
+
+#image_2:hover .icon_oeil
+{
+	 opacity: 1;
+}
+
+#image_2:hover .fond_oeil
+{
+	 opacity: 0.5;
+}
+
+#image_2:hover .texte_oeil
+{
+	 opacity: 1;
+}
+
+#image_3
+{   
+	 position: relative;
+	 background: url('webagency_images/images/portfolio/03.jpg');
+	 background-size: 100%;
+	 width: 300px;
+	 height: 200px;
+	 margin:10px;
+}
+
+#image_3:hover .icon_oeil
+{
+	 opacity: 1;
+}
+
+#image_3:hover .fond_oeil
+{
+	 opacity: 0.5;
+}
+
+#image_3:hover .texte_oeil
+{
+	 opacity: 1;
+}
+
+
+#image_4
+{   
+	 position: relative;
+	 background: url('webagency_images/images/portfolio/04.jpg');
+	 background-size: 100%;
+	 width: 300px;
+	 height: 200px;
+	 margin:10px;
+}
+
+#image_4:hover .icon_oeil
+{
+	 opacity: 1;
+}
+
+#image_4:hover .fond_oeil
+{
+	 opacity: 0.5;
+}
+
+#image_4:hover .texte_oeil
+{
+	 opacity: 1;
+}
+
+/*********************************** desing des images *********************************/
+.icon_oeil
+{
+	 position: absolute;
+	 top: 54%;
+     right: 6%;
+     color: white;
+     background-color: #6daccf;
+     border: 2px solid white;
+     border-radius: 100%;
+     padding: 10px;
+     z-index: 2;
+     opacity: 0;
+}
+
+
+.fond_oeil
+{
+	 position: absolute;
+	 bottom: 0;
+     width: 300px;
+     height: 70px;
+     background-color: black;
+     z-index: 1;
+     opacity: 0;
+}
+
+.texte_oeil
+{   
+	 position: absolute;
+	 top: 65%;
+	 left: 5%;
+	 color: white;
+	 z-index: 2;
+	 opacity: 0;
+}
+/******************************************* fin du desing des images ****************************/
+
+#image_5
+{   
+	 position: relative;
+	 background: url('webagency_images/images/portfolio/05.jpg');
+	 background-size: 100%;
+	 width: 300px;
+	 height: 200px;
+	 margin:10px;
+}
+
+#image_5:hover .icon_oeil
+{
+	 opacity: 1;
+}
+
+#image_5:hover .fond_oeil
+{
+	 opacity: 0.5;
+}
+
+#image_5:hover .texte_oeil
+{
+	 opacity: 1;
+}
+
+#image_6
+{   
+	 position: relative;
+	 background: url('webagency_images/images/portfolio/06.jpg');
+	 background-size: 100%;
+	 width: 300px;
+	 height: 200px;
+	 margin:10px;
+}
+
+#image_6:hover .icon_oeil
+{
+	 opacity: 1;
+}
+
+#image_6:hover .fond_oeil
+{ 
+	 opacity: 0.5;
+}
+
+#image_6:hover .texte_oeil
+{
+	 opacity: 1;
+}
+
+#image_7
+{   
+	 position: relative;
+	 background: url('webagency_images/images/portfolio/07.jpg');
+	 background-size: 100%;
+	 width: 300px;
+	 height: 200px;
+	 margin:10px;
+}
+
+#image_7:hover .icon_oeil
+{
+	 opacity: 1;
+}
+
+#image_7:hover .fond_oeil
+{
+	 opacity: 0.5;
+}
+
+#image_7:hover .texte_oeil
+{
+	 opacity: 1;
+}
+
+
+#image_8
+{   
+	 position: relative;
+	 background: url('webagency_images/images/portfolio/08.jpg');
+	 background-size: 100%;
+	 width: 300px;
+	 height: 200px;
+	 margin:10px;
+}
+
+#image_8:hover .icon_oeil
+{
+	 opacity: 1;
+}
+
+#image_8:hover .fond_oeil
+{
+	 opacity: 0.5;
+}
+
+#image_8:hover .texte_oeil
+{
+	 opacity: 1;
+}
+
+
+#image_9
+{   
+	 position: relative;
+	 background: url('webagency_images/images/portfolio/full.jpg');
+	 background-size: 100%;
+	 width: 300px;
+	 height: 200px;
+	 margin:10px;
+}
+
+#image_9:hover .icon_oeil
+{
+	 opacity: 1;
+}
+
+#image_9:hover .fond_oeil
+{
+	 opacity: 0.5;
+}
+
+#image_9:hover .texte_oeil
+{
+	 opacity: 1;
+}
+
+.contenu_projet
+{
+	 width: 300px;
+	 height: 200px;
+	 margin:10px 10px 10px 10px;
+}
+/********************************** fin de la section nos projets *****************************/
+
+/********************************** debut de la section map *******************************/
+iframe 
+{
+     align-items: center;
+	 width: 100%;	
+	 height: 720px;
+	 z-index: 1;
+	 opacity: 0.6;
+}
+
+#formulaire
+{   
+	 position: absolute;
+	 top: 10%;
+     left: 60%;
+	 width: 230px;
+	 min-width: 230px;
+	 background-color: #f4f4f4;
+	 z-index: 3;
+	 opacity: 0.8;
+	 border:1px solid white;
+	 padding-left: 10px;
+}
+
+#formulaire p input
+{
+	opacity: 1;
+}
+
+#tel
+{
+	 border-bottom:1px dotted black;
+} 
+
+#map
+{   
+	 position: relative;
+     z-index: 2;  
+     width: 100%;
+	 background-color: #6daccf;
+}
+
+
+
+
+/******************************** Debut des media Queries ************************************/
+
+
+
+
+@media screen and (max-width:905px){
+
+#banniere_description
+{    
+	 top:10%;
+     font-size: 0.6em;
+}
+
+.ux
+{
+	 width: 70%;
+
+}
+
+.bouton
+{   
+	width: 70px;
+	padding: 10 0 10 10px;
+}
+
+}
+
+
+@media screen and (max-width:670px){
+
+#banniere_img
+{
+	 margin-top: 200px;
+}	
+
+#conteneur nav li 
+{
+	 padding: 100px,;
+}
+
+#formulaire
+{
+	 left: 40%;
+}
+}
+
+@media screen and (max-width:600px){
+
+#banniere_description
+{
+     font-size: 0.4em;
+}
+
+.bouton
+{ 
+	 width: 50px;
+}
+}
+
+@media screen and (max-width:450px){
+
+#banniere_description
+{  
+	 top: 10%;
+     font-size: 0.3em;
+}
+
+#formulaire
+{
+	 left: 20%;
+}
+.bouton
+{
+	 width: 50px;
+	 padding: 10 0 10 10px;
+}
+#fa-ul
+{
+	 padding-left: 30px;
+}
+.ux
+{
+	 width: 70%;
+
+}
+
+body
+{
+	 padding: 0px;
+}
+
+#ul_liste
+{
+	 padding:0px;
+}
+
+h2
+{
+	 font-size: 2em;
+}
+
+#conteneur nav ul
+{
+	 padding: 0;
+}
+
+#f_left
+{ 
+     top: 40%;
+}
+
+#f_leftc
+{
+     top: 37%;
+}
+
+#f_right
+{
+     top: 40%;
+}
+
+#f_rightc
+{
+     top: 37%;
+}
+
+#services
+{
+	padding-top: 0;
+}
+}
+
